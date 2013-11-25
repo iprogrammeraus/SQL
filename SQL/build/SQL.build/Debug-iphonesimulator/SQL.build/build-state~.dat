@@ -1,0 +1,344 @@
+TSQL
+v7
+r0
+t315979193.969131
+cCheck dependencies
+cProcessInfoPlistFile /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/Info.plist Info.plist
+cCompileXIB /Users/newmacmini/Downloads/SQL/MainWindow.xib
+cCompileXIB /Users/newmacmini/Downloads/SQL/RootViewController.xib
+cCpResource build/Debug-iphonesimulator/SQL.app/SQL.sqlite SQL.sqlite
+cCompileXIB /Users/newmacmini/Downloads/SQL/AddView.xib
+cProcessPCH /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch.gch SQL_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/main.o /Users/newmacmini/Downloads/SQL/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQLAppDelegate.o /Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/RootViewController.o /Users/newmacmini/Downloads/SQL/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/Coffee.o /Users/newmacmini/Downloads/SQL/Classes/Coffee.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/AddViewController.o /Users/newmacmini/Downloads/SQL/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL normal i386
+cGenerateDSYMFile /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app.dSYM /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL
+cTouch /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004CCA44F40000000000000132
+t1288324340
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sqlite3.h
+c000000004BFDF9FB0000000000041A6F
+t1274935803
+s268911
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BFDFA0A0000000000079480
+t1274935818
+s496768
+
+N/Users/newmacmini/Downloads/SQL/AddView.xib
+c000000004906748C00000000000032F2
+t1225159820
+s13042
+
+N/Users/newmacmini/Downloads/SQL/Classes/AddViewController.h
+c000000004907BCBA0000000000000133
+t1225243834
+s307
+i<UIKit/UIKit.h>
+
+N/Users/newmacmini/Downloads/SQL/Classes/AddViewController.m
+c000000004907BCB70000000000000BA6
+t1225243831
+s2982
+i"AddViewController.h"
+i"Coffee.h"
+
+N/Users/newmacmini/Downloads/SQL/Classes/Coffee.h
+c0000000049066CAF0000000000000358
+t1225157807
+s856
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/newmacmini/Downloads/SQL/Classes/Coffee.m
+c000000004907BCD40000000000000B98
+t1225243860
+s2968
+i"Coffee.h"
+
+N/Users/newmacmini/Downloads/SQL/Classes/RootViewController.h
+c000000004906690A0000000000000179
+t1225156874
+s377
+i<UIKit/UIKit.h>
+
+N/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m
+c00000000490A700C0000000000001159
+t1225420812
+s4441
+i"RootViewController.h"
+i"Coffee.h"
+i"AddViewController.h"
+
+N/Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.h
+c0000000049066E0700000000000002E0
+t1225158151
+s736
+i<UIKit/UIKit.h>
+
+N/Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m
+c0000000049066E340000000000000A18
+t1225158196
+s2584
+i"SQLAppDelegate.h"
+i"RootViewController.h"
+i"Coffee.h"
+
+N/Users/newmacmini/Downloads/SQL/MainWindow.xib
+c000000004904A2410000000000002A08
+t1225040449
+s10760
+
+N/Users/newmacmini/Downloads/SQL/RootViewController.xib
+c000000004904A2410000000000001D71
+t1225040449
+s7537
+
+N/Users/newmacmini/Downloads/SQL/SQL.sqlite
+c0000000048FFE6790000000000001000
+t1224730233
+s4096
+
+N/Users/newmacmini/Downloads/SQL/SQL_Prefix.pch
+c000000004904A6BB00000000000000CB
+t1225041595
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"SQLAppDelegate.h"
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app
+t1294286393
+s306
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app.dSYM
+t1294286393
+s102
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/AddView.nib
+t1225160549
+s2981
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/Info.plist
+t1225040974
+s907
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/MainWindow.nib
+t1225040974
+s1991
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/PkgInfo
+t1225040974
+s8
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/RootViewController.nib
+t1225040974
+s1467
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL
+t1294286393
+s37548
+
+N/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL.sqlite
+t1225040974
+s4096
+
+N/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/AddViewController.o
+t1294286393
+s50212
+
+N/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/Coffee.o
+t1294286393
+s54072
+
+N/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/RootViewController.o
+t1294286393
+s54924
+
+N/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQL.LinkFileList
+c000000004D253E38000000000000023E
+t1294286392
+s574
+
+N/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQLAppDelegate.o
+t1294286393
+s55740
+
+N/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/main.o
+t1294286393
+s6288
+
+N/Users/newmacmini/Downloads/SQL/main.m
+c000000004904A3FD0000000000000160
+t1225040893
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch.gch
+t1294286393
+s15252528
+
+NInfo.plist
+c000000004904A2410000000000000381
+t1225040449
+s897
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315979192#315979192#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/AddViewController.o /Users/newmacmini/Downloads/SQL/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315979193.555637
+e315979193.645970
+r1
+xCompileC
+xbuild/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/AddViewController.o
+x/Users/newmacmini/Downloads/SQL/Classes/AddViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/newmacmini/Downloads/SQL/Classes/AddViewController.m315979193#315979193#0(0"0(0#0#59"/Users/newmacmini/Downloads/SQL/Classes/AddViewController.m8630821440#1778"    cd /Users/newmacmini/Downloads/SQL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-generated-files.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-own-target-headers.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-all-target-headers.hmap -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-project-headers.hmap -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -I/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/include -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources/i386 -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources -include /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch -c /Users/newmacmini/Downloads/SQL/Classes/AddViewController.m -o /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/AddViewController.o0#
+
+CCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/Coffee.o /Users/newmacmini/Downloads/SQL/Classes/Coffee.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315979193.513272
+e315979193.623846
+r1
+xCompileC
+xbuild/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/Coffee.o
+x/Users/newmacmini/Downloads/SQL/Classes/Coffee.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/newmacmini/Downloads/SQL/Classes/Coffee.m315979193#315979193#0(0"0(0#0#48"/Users/newmacmini/Downloads/SQL/Classes/Coffee.m8634021312#1756"    cd /Users/newmacmini/Downloads/SQL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-generated-files.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-own-target-headers.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-all-target-headers.hmap -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-project-headers.hmap -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -I/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/include -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources/i386 -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources -include /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch -c /Users/newmacmini/Downloads/SQL/Classes/Coffee.m -o /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/Coffee.o0#
+
+CCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/RootViewController.o /Users/newmacmini/Downloads/SQL/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315979193.453889
+e315979193.555541
+r1
+xCompileC
+xbuild/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/RootViewController.o
+x/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m:38: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+lSLF07#2@68"Compile /Users/newmacmini/Downloads/SQL/Classes/RootViewController.m315979193#315979193#0(401"/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m:38: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)1(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)315979193#132#269#0(6@60"/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m247113612#38#0#38#0#33"'*' is deprecated (declared at *)0(0#0#60"/Users/newmacmini/Downloads/SQL/Classes/RootViewController.m8636567520#1780"    cd /Users/newmacmini/Downloads/SQL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-generated-files.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-own-target-headers.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-all-target-headers.hmap -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-project-headers.hmap -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -I/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/include -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources/i386 -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources -include /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch -c /Users/newmacmini/Downloads/SQL/Classes/RootViewController.m -o /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQLAppDelegate.o /Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315979193.288674
+e315979193.513170
+r1
+xCompileC
+xbuild/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQLAppDelegate.o
+x/Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m315979193#315979193#0(0"0(0#0#56"/Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m8629432896#1772"    cd /Users/newmacmini/Downloads/SQL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-generated-files.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-own-target-headers.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-all-target-headers.hmap -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-project-headers.hmap -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -I/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/include -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources/i386 -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources -include /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch -c /Users/newmacmini/Downloads/SQL/Classes/SQLAppDelegate.m -o /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQLAppDelegate.o0#
+
+CCompileC build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/main.o /Users/newmacmini/Downloads/SQL/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315979193.287366
+e315979193.453788
+r1
+xCompileC
+xbuild/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/main.o
+x/Users/newmacmini/Downloads/SQL/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/newmacmini/Downloads/SQL/main.m315979193#315979193#0(0"0(0#0#38"/Users/newmacmini/Downloads/SQL/main.m8632690816#1744"    cd /Users/newmacmini/Downloads/SQL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-generated-files.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-own-target-headers.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-all-target-headers.hmap -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-project-headers.hmap -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -I/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/include -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources/i386 -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources -include /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch -c /Users/newmacmini/Downloads/SQL/main.m -o /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/newmacmini/Downloads/SQL/AddView.xib
+r0
+
+CCompileXIB /Users/newmacmini/Downloads/SQL/MainWindow.xib
+r0
+
+CCompileXIB /Users/newmacmini/Downloads/SQL/RootViewController.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/SQL.app/SQL.sqlite SQL.sqlite
+r0
+
+CGenerateDSYMFile /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app.dSYM /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL
+s315979193.906727
+e315979193.955354
+r1
+xGenerateDSYMFile
+x/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app.dSYM
+x/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/SQL.app.dSYM build/Debug-iphonesimulator/SQL.app/SQL315979193#315979193#0(0"0(0#0#71"/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL8634893824#350"    cd /Users/newmacmini/Downloads/SQL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL -o /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app.dSYM0#
+
+CLd /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL normal i386
+s315979193.646065
+e315979193.906635
+r1
+xLd
+x/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL
+xnormal
+xi386
+lSLF07#2@76"Link /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL315979193#315979193#0(0"0(0#0#0"8623663168#857"    cd /Users/newmacmini/Downloads/SQL    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -filelist /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/Objects-normal/i386/SQL.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/SQL0#
+
+CProcessInfoPlistFile /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch.gch SQL_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s315979192.105858
+e315979193.287259
+r1
+xProcessPCH
+x/var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch.gch
+xSQL_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile SQL_Prefix.pch315979192#315979193#0(0"0(0#0#46"/Users/newmacmini/Downloads/SQL/SQL_Prefix.pch8676578743001571328#1647"    cd /Users/newmacmini/Downloads/SQL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-generated-files.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-own-target-headers.hmap -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-all-target-headers.hmap -iquote /Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/SQL-project-headers.hmap -F/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator -I/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/include -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources/i386 -I/Users/newmacmini/Downloads/SQL/build/SQL.build/Debug-iphonesimulator/SQL.build/DerivedSources -c /Users/newmacmini/Downloads/SQL/SQL_Prefix.pch -o /var/folders/8S/8Sid7DggG8eqay0Jh1FQn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SQL_Prefix-heltbnzfycfshfccrdxqodlnbxgl/SQL_Prefix.pch.gch0#
+
+CTouch /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app
+s315979193.955437
+e315979193.969067
+r1
+xTouch
+x/Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app
+lSLF07#2@73"Touch /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app315979193#315979193#0(0"0(0#0#0"8632713216#260"    cd /Users/newmacmini/Downloads/SQL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/newmacmini/Downloads/SQL/build/Debug-iphonesimulator/SQL.app0#
+

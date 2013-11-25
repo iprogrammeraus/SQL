@@ -1,0 +1,75 @@
+TSQL
+v7
+r1
+
+N/Users/newmacmini/Downloads/SQL/AddView.xib
+c000000004906748C00000000000032F2
+t1225159820
+s13042
+
+N/Users/newmacmini/Downloads/SQL/MainWindow.xib
+c000000004904A2410000000000002A08
+t1225040449
+s10760
+
+N/Users/newmacmini/Downloads/SQL/RootViewController.xib
+c000000004904A2410000000000001D71
+t1225040449
+s7537
+
+N/Users/newmacmini/Downloads/SQL/SQL.sqlite
+c0000000048FFE6790000000000001000
+t1224730233
+s4096
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app
+t2
+s0
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/Info.plist
+t2
+s0
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/Resources/AddView.nib
+t2
+s0
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+N/Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/Resources/SQL.sqlite
+t2
+s0
+
+NInfo.plist
+c000000004904A2410000000000000381
+t1225040449
+s897
+
+CCompileXIB /Users/newmacmini/Downloads/SQL/AddView.xib
+r0
+
+CCompileXIB /Users/newmacmini/Downloads/SQL/MainWindow.xib
+r0
+
+CCompileXIB /Users/newmacmini/Downloads/SQL/RootViewController.xib
+r0
+
+CCpResource build/Debug/SQL.app/Contents/Resources/SQL.sqlite SQL.sqlite
+r0
+
+CProcessInfoPlistFile /Users/newmacmini/Downloads/SQL/build/Debug/SQL.app/Contents/Info.plist Info.plist
+r0
+
+CTouch /Users/newmacmini/Downloads/SQL/build/Debug/SQL.app
+r0
+
