@@ -5,6 +5,7 @@
 //  Created by iPhone SDK Articles on 10/26/08.
 //  Copyright 2008 www.iPhoneSDKArticles.com.
 //
+//  BHC Test for commit
 
 #import "Coffee.h"
 
