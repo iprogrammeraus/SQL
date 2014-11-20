@@ -86,13 +86,17 @@
 	[appDelegate addCoffee:coffeeObj];
 	
 	//Dismiss the controller.
-	[self.navigationController dismissModalViewControllerAnimated:YES];
+	[self.navigationController dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 - (void) cancel_Clicked:(id)sender {
 	
 	//Dismiss the controller.
-	[self.navigationController dismissModalViewControllerAnimated:YES];
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
